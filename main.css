@@ -1,14 +1,12 @@
 * {
     color:burlywood; 
+    background-color: aqua
 }
 h1{
-    color:rgb(80, 50, 107);
+    color:blueviolet;
     font-size:35px;
 }
-h2{
-    color:rgb(41, 9, 41);
+h2,h3{
+    color:blueviolet;
     font-size:25px;
-}
-*{
-    background-image: Screenshot 2019-08-02 at 12.23.10.png
 }
