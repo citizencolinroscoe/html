@@ -18,11 +18,12 @@ p {
 }
 
 .center {
-    text-align: center;
+    /*text-align: center;*/
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: auto;
+    mix-blend-mode: difference;
 }
 html{
     background: url(giphy.gif) no-repeat center fixed;
@@ -37,8 +38,45 @@ html{
 }
 .gdpr {
     text-align: center;
-    
+    list-style-position: inside;
 }
-ul{
-
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+.topnav{
+    float: left;
+    color: yellow;
+    text-align: left;
+    padding: 20px 610px;
+    text-decoration: black;
+    font-size: 17px
+}
+.img{
+    mix-blend-mode: difference;
+}
+/*.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+/*.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: blueviolet;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding:  12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.show {
+    display: block;
 }
