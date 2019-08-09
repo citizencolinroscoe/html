@@ -4,7 +4,7 @@
 
 }
 h1{
-    color:blueviolet;
+    color: blueviolet;
     font-size:35px;
     text-align: center;
 }
@@ -35,6 +35,12 @@ html{
     background: url(giphy.gif) no-repeat center fixed;
     background-size: cover;
 }
+.tex{
+    background-color: rgba(0,0,0,0.7 alpha);
+    color:black;
+    padding: 20px;
+    margin: 50px;
+}
 .row {
     display: flex;
 }
@@ -52,7 +58,7 @@ html{
 }
 .topnav{
     float: center;
-    color: yellow;
+    color: greenyellow;
     text-align: center;
     padding: 20px 70px;
     text-decoration: black;
